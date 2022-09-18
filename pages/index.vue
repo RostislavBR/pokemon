@@ -1,19 +1,17 @@
 <template>
-  <div class="wrapper">
-    <h1>Hello World</h1>
+  <div class="main-wrapper">
+    <NewsColumn/>
   </div>
 </template>
 
 <script>
+  import NewsColumn from '~/components/main/NewsColumn'
   export default {
-    name: 'IndexPage'
+    name: 'IndexPage',
+    components: { NewsColumn }
   }
 </script>
-<style>
-  /*.wrapper {*/
-  /*  h1 {*/
-  /*    font-family: sans-serif;*/
-  /*    font-size: 52px;*/
-  /*  }*/
-  /*}*/
+
+<style scoped>
+
 </style>
