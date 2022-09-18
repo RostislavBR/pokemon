@@ -28,21 +28,19 @@
     margin: 0;
     overflow: hidden;
     background-image: url("../image/body_bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
   }
   .container {
-    width: 1024px;
+    max-width: 1280px;
+    padding: 20px 150px;
     margin: 0 auto;
     background-color: #fff;
     background-image: url("../image/container_bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    box-sizing: border-box;
   }
   .logo-wrapper {
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    padding: 20px 0;
     background: #f5f5f5;
     border-bottom: 2px solid #dedede;
   }
